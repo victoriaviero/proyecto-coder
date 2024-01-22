@@ -1,0 +1,57 @@
+.title {
+    color: #000080;
+    font-family: roboto;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3vw;
+    font-size: 55px;
+}
+.text {
+    font-family: roboto;
+    font-size: 30px;
+    text-align: center;
+    color: #000080;
+}
+.title2 {
+    color: #000080;
+    font-weight: bold;
+    font-family: roboto;
+    font-size: 38px;
+    text-align: center;
+    margin: 30px;
+}
+.grilla-nosotros {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    .grid-item {
+        img {
+            overflow-x: hidden;
+        }
+    }
+    .grid-item1 {
+        img {
+            grid-row: 1/2;
+            grid-column: 1/2;
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+    .grid-item2 {
+        img {
+            grid-row: 1/2;
+            grid-column: 2/3;
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+    .grid-item3 {
+        img {
+            grid-row: 1/2;
+            grid-column: 3/4;
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+
+}

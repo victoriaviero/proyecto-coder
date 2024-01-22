@@ -1,0 +1,22 @@
+.grilla {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    .carrusel {
+        overflow: hidden;
+        .carousel-inner {
+            img {
+                margin-top: 3vw;
+                width: 20%;
+                height: auto;
+            }
+        }
+    }
+    .texto-grid-1 {
+        text-align: center;
+        margin-top: 15vw;
+        font-size: 1.7vw;
+        color: #000080;
+    }
+}

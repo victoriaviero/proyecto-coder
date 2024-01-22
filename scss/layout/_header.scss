@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    header {
+        background-color: rgb(49, 55, 148);
+        font-family: roboto;
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            .logo-img {
+                width: 10rem;
+
+            }
+            ul {
+                list-style-type: none;
+                display: flex;
+                li {
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        font-family: roboto;
+                        margin: 8px;
+                        align-items: center;
+                        font-size: 1.5vw;
+                        font-weight: bold;
+                    }
+                }
+
+            }
+        }
+    }
+}
+a:hover {
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    
+}

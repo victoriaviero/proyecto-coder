@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.formulario2 {
+    padding: 50px 55px;
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+    input {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
