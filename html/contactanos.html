@@ -47,10 +47,11 @@
             </div>
             
         </div>
-        <div class="titulo-formulario2">
-            <h2>Dejanos tu consulta</h2>
-        </div>
+        
         <form action="form.php" method="post" class="formulario2">
+            <div class="titulo-formulario2">
+                <h2>Dejanos tu consulta</h2>
+            </div>
             <div>
                 <label for="nombre">Nombre y Apellido</label>
                 <input type="text" name="nombre" id="nombre">
@@ -68,11 +69,16 @@
                 <textarea name="consultas" id="consultas" cols="30" rows="7"></textarea>
                 
             </div>
-            <button type="button" class="btn btn-outline-light btn-sm col-4">Enviar</button>
+            <input class="btn" type="submit" value="Enviar">
         </form>
             
        
     </main>
+    <div class="whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=3463645730" target="_blank" title="whatsapp"> <!-- target="blank" hace que el link se abra en otra pagina-->
+            <img src="../assets/icono-whatsapp.png" alt="whatsapp">
+        </a>
+    </div>
     <footer>
         <div class="info-footer">
             <p>Celular: 3463 645730</p>
