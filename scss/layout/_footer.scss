@@ -58,9 +58,11 @@ footer {
         }
     }
 }
-.formulario button:hover {
-    background-color: #010492;
-    color: white;
+.formulario {
+    .btn:hover{
+        background-color: #010492;
+        color: white;
+    }
 }
 
 /*whatsapp*/

@@ -25,3 +25,35 @@
         display: block;
     }
 }
+.link-trabajos {
+    text-decoration: none;
+    color: #000080;
+    font-family: roboto;
+    font-size: 20px;
+    text-align: right;
+}
+
+/*boton formulario "contactanos*/
+.contactanos {
+    .formulario2 {
+        .btn {
+            font-size: 18px;
+            color: white;
+            background-color: #3b71d3;
+            border-radius: 25px;
+            border: 0;
+            cursor: pointer;
+        }
+    }
+}
+.contactanos {
+    .formulario2 {
+        .btn {
+            align-items: center;
+        }
+        .btn:hover {
+            background-color: #000080;
+            font-size: 22px;
+        }
+    }
+}
