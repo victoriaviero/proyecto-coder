@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   overflow-x: hidden;
 }
@@ -25,7 +26,7 @@ body header .navbar ul li a {
   font-family: roboto;
   margin: 8px;
   align-items: center;
-  font-size: 1.5vw;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -118,6 +119,14 @@ footer .formulario button {
   color: white;
 }
 
+.mapa {
+  margin: 0;
+  max-width: 60%;
+  height: auto;
+  display: block;
+  align-items: center;
+}
+
 .menu-hamburguesa {
   padding: 0;
   font-size: 16px;
@@ -184,6 +193,42 @@ footer .formulario button {
   }
   .navbar ul li a {
     display: none;
+  }
+}
+/* medias para menos de 480px*/
+@media screen and (max-width: 480px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body header .navbar .ariel-viero-refrigeracion {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    border-top: 10px;
+    border-left: 10px;
+  }
+  body header .navbar .copo {
+    display: none;
+  }
+  body footer .cel-mail-direccion {
+    margin-top: 20px;
+  }
+  body footer .formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  body footer .formulario div {
+    flex: 1 1 100%;
+  }
+  body footer .formulario .cel-mail-direccion {
+    display: none;
+  }
+  body footer .insta {
+    display: flex;
+    justify-content: left;
   }
 }
 .contenedor {
@@ -352,23 +397,36 @@ footer .formulario button {
   font-weight: bold;
   text-align: center;
   margin-top: 3vw;
-  font-size: 48px;
+  font-size: 38px;
 }
 
 .title2 {
   color: #000080;
   font-weight: bold;
   font-family: roboto;
-  font-size: 30px;
+  font-size: 28px;
   text-align: center;
   margin: 30px;
 }
 
 .text {
   font-family: roboto;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
+  font-weight: bold;
   color: #000080;
+}
+
+@keyframes girar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.copo {
+  animation: girar 5s linear infinite; /* La animación durará 5 segundos, será lineal y se repetirá infinitamente */
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+@keyframes girar {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.copo {
+    animation: girar 5s linear infinite; /* La animación durará 5 segundos, será lineal y se repetirá infinitamente */
+}
