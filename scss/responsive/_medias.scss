@@ -29,12 +29,14 @@
         box-sizing: border-box;
         header {
             .navbar {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                height: 100%;
                 .ariel-viero-refrigeracion {
+                    align-items: center;
                     max-width: 100%;
                     height: auto;
-                    align-items: center;
-                    border-top: 10px;
-                    border-left: 10px;
                 }
                 .copo {
                     display: none;
@@ -42,8 +44,16 @@
             }
         }
         footer {
+            .mapa {
+                iframe {
+                    max-width: 100%;
+                    height: auto;
+                }
+                max-width: 50%;
+                height: auto;
+            }
             .cel-mail-direccion {
-                margin-top: 20px;
+                margin-top: 50px;
             }
             .formulario {
                 display: flex;
@@ -61,6 +71,37 @@
                 justify-content: left;
             }
             
+        }
+    }
+}
+.contactenos {
+    .contactos {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+        header {
+            background-color: rgb(49, 55, 148);
+            font-family: roboto;
+            .navbar {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                height: 100%;
+            }           
+        }
+    }
+}
+.contenedor {
+    section {
+        h1 {
+            font-size: 25px;
+        }
+        p {
+            font-size: 14px;
         }
     }
 }
