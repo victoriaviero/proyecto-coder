@@ -1,22 +1,25 @@
-.menu-hamburguesa{
-    padding:0;
-    font-size: 16px;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-around;
-    ul {
-        padding: 0;
-        margin: 0;
-        display: none;
-        list-style-type: none;
-        background-color: #313794;
-        li {
+.button {
+    .menu-hamburguesa{
+        padding:0;
+        font-size: 16px;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-around;
+        ul {
+            padding: 0;
+            margin: 0;
+            display: none;
             list-style-type: none;
-            padding: 10px;
-            text-align: center;
-            color: white;
-            font-weight: bold;
-            font-style: none;
+            background-color: #313794;
+            li {
+                list-style-type: none;
+                padding: 10px;
+                text-align: center;
+                color: white;
+                font-weight: bold;
+                font-style: none;
+                list-style-type: none;
+            }
         }
     }
 }

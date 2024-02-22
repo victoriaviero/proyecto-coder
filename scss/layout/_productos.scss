@@ -1,34 +1,63 @@
-.main-productos {
-    .grid-productos {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        div {
-            .productos-1 {
-                grid-row:1/2;
-                grid-column: 1/2;
-                margin-left: 15px;
-                width: 300px;
-                height: auto;
-            }          
-            .text-1 {
-                grid-row: 1/2;
-                grid-column: 2/3;
-                text-align: center;
-            }
+body {
+    .main-productos {
+        section {
+                h1 {
+                        text-align: center;
+                }
         }
-        div {
+        .grid-productos {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 20px;
             .productos-2 {
-                grid-row: 1/2;
-                grid-column: 3/4;
-                margin-left: 15px;
-                width: 300px;
-                height: auto;
+                    grid-row: 1/2;
+                    grid-column: 1/2;
+                    max-width: 100%;
+                    height: auto;
+                    margin-left: 30px;
             }
-            .text-2 {
-                grid-row: 1/2;
-                grid-column: 4/5;
+            .productos-3 {
+                    grid-row: 2/3;
+                    grid-column: 1/2;
+                    max-width: 100%;
+                    height: auto;
+                    margin-left: 30px;
             }
-        }
+            .productos-1 {
+                    grid-row: 3/4;
+                    grid-column: 1/2;
+                    max-width: 100%;
+                    height: auto;
+                    margin-left: 30px;        
+            }
+            .txt2 {
+                    grid-column: 2/3;
+                    grid-row: 1/2;
+                    color: #000080;
+                    text-align: center;
+                    font-family: roboto;
+                    font-size: 25px;
+                    margin-top: 20px;
+            }
+            .txt3 {
+                    grid-column: 2/3;
+                    grid-row: 2/3;
+                    color: #000080;
+                    text-align: center;
+                    font-family: roboto;
+                    font-size: 25px;
+                    margin-top: 20px;
+            }
+            .txt1 {
+                    grid-column: 2/3;
+                    grid-row: 3/4;
+                    color: #000080;
+                    text-align: center;
+                    font-family: roboto;
+                    font-size: 25px;
+                    margin-top: 20px;
+            } 
+        }         
     }
 }
